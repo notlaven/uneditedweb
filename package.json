@@ -1,0 +1,30 @@
+{
+  "name": "websiteinnextjsandmore",
+  "version": "1.0.0",
+  "description": "Unedited website - CharlieVA",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "CharlieVA / Charlie@unedited.site",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.16.12",
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.8.2",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.3",
+    "prettier": "^3.1.0"
+  }
+}
