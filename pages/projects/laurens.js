@@ -13,7 +13,7 @@ import {
   
   const Blog = () => {
     return (
-      <Layout title="Website Laurens Waling">
+      <Layout Title="Website Laurens Waling">
         <Container>
           <Title>Website Laurens Waling</Title>
   
