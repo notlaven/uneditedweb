@@ -2,7 +2,7 @@ import NextLink from 'next/link'
 import { Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
-export const blogsTitle = ({ children }) => (
+export const BlogsTitle = ({ children }) => (
   <Box>
     <NextLink href="/blogs">
       <Link fontSize={14} fontFamily={"Work Sans, sans-serif"} textColor={"yellow.500"} fontWeight={"bold"}>Blogs</Link>
