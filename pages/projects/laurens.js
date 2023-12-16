@@ -9,7 +9,7 @@ import {
   } from "@chakra-ui/react";
   import { ExternalLinkIcon } from "@chakra-ui/icons";
   import { Title, Meta } from "../../components/blog";
-  import Layout from "../../components/layouts/blog";
+  import Layout from "../../components/layouts/project";
   
   const Blog = () => {
     return (
