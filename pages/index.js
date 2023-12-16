@@ -21,13 +21,13 @@ const Page = () => {
       <Container>
         <Box
           borderRadius="lg"
-          bg="yellow.400"
+          bgColor={"whiteAlpha.300"}
           p={3}
           mb={6}
           mt={3}
           align="center"
         >
-          Hello I'm Charlie at Unedited
+          Hello, I'm Charlie!
         </Box>
 
         <Box display={{ md: "flex" }}>
@@ -52,6 +52,7 @@ const Page = () => {
           >
             About
           </Heading>
+
           <p>
             Hi! I'm Charlie, coding and website design are my way of creating a
             good place in the world. When I was 5 years old, I started learning
@@ -59,6 +60,7 @@ const Page = () => {
             and creating websites and apps. Learning over 15 different
             programming languages, and writing over 10000 lines of code.
           </p>
+          
           <Box align="center" my={4}>
             <Button
               as={NextLink}
@@ -68,6 +70,38 @@ const Page = () => {
               colorScheme="yellow"
             >
               About me
+            </Button>
+          </Box>
+        </Section>
+
+        <Section delay={0.2}>
+          <Heading
+            as="h3"
+            variant="section-title"
+            mt={3}
+            fontFamily="Work Sans, sans-serif"
+          >
+            Projects
+          </Heading>
+
+          <p>
+            Since December 2023 I've been working to create stunning new designs and code
+            for new apps and websites.
+          </p>
+
+          <p>
+            Since then I've created several projects.
+          </p>
+
+          <Box align="center" my={4}>
+            <Button
+              as={NextLink}
+              href="/projects"
+              scroll={false}
+              rightIcon={<ChevronRightIcon />}
+              colorScheme="yellow"
+            >
+              Projects
             </Button>
           </Box>
         </Section>
