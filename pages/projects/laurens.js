@@ -13,7 +13,7 @@ import {
   
   const Project = () => {
     return (
-      <Layout Title="Website Laurens Waling">
+      <Layout title="Website Laurens Waling">
         <Container>
           <Title>Website Laurens Waling</Title>
   
