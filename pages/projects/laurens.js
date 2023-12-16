@@ -11,7 +11,7 @@ import {
   import { Title, Meta } from "../../components/blog";
   import Layout from "../../components/layouts/project";
   
-  const Blog = () => {
+  const Project = () => {
     return (
       <Layout Title="Website Laurens Waling">
         <Container>
@@ -42,5 +42,5 @@ import {
     );
   };
   
-  export default Blog;
+  export default Project;
   
