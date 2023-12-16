@@ -8,14 +8,14 @@ import {
   Text
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { Title, BlogsImage, Meta } from "../../components/blog";
+import { BlogsTitle, BlogsImage, Meta } from "../../components/blog";
 import Layout from "../../components/layouts/blog";
 
 const Blog = () => {
   return (
     <Layout title="Christmas blog - Dev blog 1">
       <Container>
-        <Title>Christmas blog</Title>
+        <BlogsTitle>Christmas blog</BlogsTitle>
 
         <Heading
           as="h2"
