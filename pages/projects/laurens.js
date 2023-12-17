@@ -23,7 +23,7 @@ import {
             fontFamily="Work Sans, sans-serif"
             fontWeight="bold"
           >
-            Website Laurens Waling
+            Website Laurens Waling <Badge>July - Dec 2023</Badge>
           </Heading>
           <List ml={4} my={4} fontSize={13}>
             <ListItem fontFamily={"Work sans, sans-serif"} mb={1}>

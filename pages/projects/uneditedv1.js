@@ -23,7 +23,7 @@ import {
             fontFamily="Work Sans, sans-serif"
             fontWeight="bold"
           >
-            Unedited v1.0
+            Unedited v1.0 <Badge>Dec 2023</Badge>
           </Heading>
           <List ml={4} my={4} fontSize={13}>
             <ListItem fontFamily={"Work sans, sans-serif"} mb={1}>

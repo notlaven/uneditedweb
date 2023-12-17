@@ -23,7 +23,7 @@ const Blog = () => {
           fontFamily="Work Sans, sans-serif"
           fontWeight="bold"
         >
-          Christmas blog - Dev blog #1
+          Christmas blog - Dev blog #1 <Badge>Dec 2023</Badge>
         </Heading>
         <List>
           <ListItem fontFamily={"Work sans, sans-serif"}>
