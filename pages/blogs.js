@@ -7,7 +7,7 @@ import christmasBlogThumbnail from "../christmasblog.png"
 
 const Blog = () => {
   return (
-    <Layout title="blogs">
+    <Layout title="Overview">
       <Container>
         <Heading
           as="h3"

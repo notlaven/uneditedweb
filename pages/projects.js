@@ -7,6 +7,7 @@ import thumbUnedited from "../thumbnailUnedited.png"
 
 const projects = () => {
   return (
+    
     <Container>
       <Heading
         as="h3"
