@@ -3,7 +3,7 @@ import Section from "../components/section"
 import { BlogsGridItem } from "../components/grid-i"
 import Layout from "../components/layouts/blog"
 
-import christmasBlogThumbnail from "../christmasblog.png"
+import christmasBlogThumbnail from "../components/images/blogs/christmasblog.png"
 
 const Blog = () => {
   return (

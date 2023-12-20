@@ -2,12 +2,12 @@ import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react"
 import Section from "../components/section"
 import { ProjectGridItem } from "../components/grid-i"
 
-import thumbLaurens from "../thumbnailLaurens.png"
-import thumbUnedited from "../thumbnailUnedited.png"
+import thumbLaurens from "../components/images/projects/thumbnailLaurens.png"
+import thumbUnedited from "../components/images/projects/thumbnailUnedited.png"
 
 const projects = () => {
   return (
-    
+
     <Container>
       <Heading
         as="h3"
