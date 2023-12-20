@@ -13,7 +13,7 @@ const Layout = ({ children, title }) => (
     initial="hidden" animate="enter" exit="exit" variants={variants} transition={{ duration: 0.4, type: 'easeInOut'}}>
         <>
             {title && ( <Head>
-                <title>{title}</title>
+                <title>Blog - {title}</title>
             </Head>
             )}
             {children}
