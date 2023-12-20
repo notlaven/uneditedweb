@@ -15,6 +15,10 @@ const About = () => {
         >
           About me
         </Heading>
+
+        <p>
+          Hello, I'm Charlie. 
+        </p>
       </Container>
     </Layout>
   )

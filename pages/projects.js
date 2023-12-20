@@ -27,9 +27,9 @@ const projects = () => {
                     </ProjectGridItem>
                 </Section>
                 <Section delay={0.3}>
-                <ProjectGridItem id="uneditedv1" title="Unedited v1.0" thumbnail={thumbUnedited}>
-                    The first version of the Unedited Website
-                </ProjectGridItem>
+                    <ProjectGridItem id="uneditedv1" title="Unedited v1.0" thumbnail={thumbUnedited}>
+                        The first version of the Unedited Website
+                    </ProjectGridItem>
                 </Section>
             </SimpleGrid>
 
