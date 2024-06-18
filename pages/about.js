@@ -26,41 +26,21 @@ const About = () => {
           my knowledge of code and design over time. <br />
           I've been reaching certificates from IBM (Via EDx) to reach a
           MicroBachelors in full-stack application development. (For more info
-          visit{" "}
-          <Link
-            color="yellow.500"
-            href={
-              "https://www.linkedin.com/in/tjalling-van-abbema-8430811a8/details/certifications/"
-            }
-          >
-            my LinkedIn <ExternalLinkIcon />
-          </Link>
+          visit my LinkedIn page
           ) <br />
           <br />
           Links: <br />
         </p>
         <Link
           target="_blank"
-          href="https://github.com/FearlessTJ/uneditedweb"
+          href="https://github.com/notlaven/"
           display="inline-flex"
           alignItems="center"
           style={{ gap: 4 }}
           pl={2}
           color={"whiteAlpha"}
         >
-          <IoLogoGithub /> Github (Source code website)
-        </Link>
-        <br />
-        <Link
-          target="_blank"
-          href="https://wa.me/31614102758"
-          display="inline-flex"
-          alignItems="center"
-          style={{ gap: 4 }}
-          pl={2}
-          color={"green.500"}
-        >
-          <IoLogoWhatsapp /> WhatsApp
+          <IoLogoGithub /> Github
         </Link>
         <br />
         <Link

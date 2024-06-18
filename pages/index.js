@@ -21,7 +21,7 @@ const Page = () => {
       <Container>
         <Box
           borderRadius="lg"
-          bgColor={"whiteAlpha.300"}
+          bgColor={"whiteAlpha.500"}
           p={3}
           mb={6}
           mt={3}
@@ -39,7 +39,7 @@ const Page = () => {
             >
               Charlie
             </Heading>
-            <p>Full-stack website & swift developer</p>
+            <p>Web & app developer</p>
           </Box>
         </Box>
 
