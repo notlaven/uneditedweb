@@ -6,7 +6,7 @@ import { IoLogoGithub, IoLogoWhatsapp, IoLogoLinkedin } from "react-icons/io5"
 
 const About = () => {
   return (
-    <Layout>
+    <Layout title={undefined}>
       <Container>
         <Heading
           as="h3"
@@ -17,18 +17,15 @@ const About = () => {
         >
           About me
         </Heading>
-        <Divider mb={5} mt={3}/>
+        <Divider mb={4} mt={3}/>
         <p>
-          Hello, I'm Charlie. <br />
-          <br />
-          I'm a 14 year old full stack web developer. I've been creating
+          Hey, I'm Charlie! <br />
+          I'm a 15 year old full stack web developer. I've been coding
           websites, apps and custom built software solutions since 5, expanding
           my knowledge of code and design over time. <br />
-          I've been reaching certificates from IBM (Via EDx) to reach a
-          MicroBachelors in full-stack application development. (For more info
-          visit my LinkedIn page
-          ) <br />
-          <br />
+          In March 2024 I've finished a MicroBachelor in Web Development 
+          (By IBM via EDx. For more info, check my LinkedIn page)
+          <Divider mb={3} mt={4}/>
           Links: <br />
         </p>
         <Link
@@ -39,6 +36,7 @@ const About = () => {
           style={{ gap: 4 }}
           pl={2}
           color={"whiteAlpha"}
+          mt={1}
         >
           <IoLogoGithub /> Github
         </Link>

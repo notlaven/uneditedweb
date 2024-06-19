@@ -4,10 +4,10 @@ import Fonts from "../components/fonts";
 import theme from "../lib/theme";
 import { AnimatePresence } from "framer-motion";
 
-const Website = ({ Component, pageProps, router }) => {
+const Website = ({ Component, pageProps, router }: { Component: any, pageProps: any, router: any}) => {
   return (
     <ChakraProvider theme={theme}>
-      <Fonts />
+      <Fonts/>
       <Layout router={router}>
         <AnimatePresence
           mode="wait"

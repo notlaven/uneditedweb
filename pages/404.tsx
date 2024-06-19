@@ -8,7 +8,7 @@ const NotFound = () => {
             <Text>This page could not be found - If you think it is not supposed to be like this, code your own website. Or contact me on discord: notlaven</Text>
             <Divider my={6} />
 
-            <Box my={6} align="center">
+            <Box my={6} alignItems="center">
                 <NextLink href="/">
                     <Button colorScheme="yellow">Back to the homepage</Button>
                 </NextLink>

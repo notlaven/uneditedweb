@@ -17,19 +17,8 @@ import Section from "../components/section";
 
 const Page = () => {
   return (
-    <Layout>
-      <Container>
-        <Box
-          borderRadius="lg"
-          bgColor={"whiteAlpha.500"}
-          p={3}
-          mb={6}
-          mt={3}
-          align="center"
-        >
-          Hello, I'm Charlie!
-        </Box>
-
+    <Layout title={undefined}>
+      <Container mt={5}>
         <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
             <Heading
@@ -61,7 +50,7 @@ const Page = () => {
             programming languages, and writing over 10000 lines of code.
           </p>
           
-          <Box align="center" my={4}>
+          <Box alignItems="center" my={4}>
             <Button
               as={NextLink}
               href="/about"
@@ -93,7 +82,7 @@ const Page = () => {
             Since then I've created several projects.
           </p>
 
-          <Box align="center" my={4}>
+          <Box alignItems="center" my={3}>
             <Button
               as={NextLink}
               href="/projects"

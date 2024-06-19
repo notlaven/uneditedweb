@@ -1,14 +1,12 @@
 import {
   Container,
   Badge,
-  Link,
   List,
   ListItem,
   Heading,
   Text
 } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { BlogsTitle, BlogsImage, Meta } from "../../components/blog";
+import { BlogsTitle, Meta } from "../../components/blog";
 import Layout from "../../components/layouts/blog";
 
 const Blog = () => {

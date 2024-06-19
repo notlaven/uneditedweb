@@ -7,20 +7,19 @@ import thumbUnedited from "../components/images/projects/thumbnailUnedited.png"
 
 const projects = () => {
   return (
-
     <Container>
       <Heading
         as="h3"
         fontSize={24}
-        mt={5}
-        mb={4}
+        mt={2}
+        mb={3}
         fontFamily="Work Sans, sans-serif"
       >
         Projects
       </Heading>
 
       <Section delay={0.2}>
-        <Divider my={6} />
+        <Divider my={6}/>
         <Heading
           as="h3"
           fontSize={24}

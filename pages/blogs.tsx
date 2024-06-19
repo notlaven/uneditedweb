@@ -20,7 +20,7 @@ const Blog = () => {
         </Heading>
 
         <Section delay={.3}>
-          <BlogsGridItem id="christmasBlog" title="Christmas blog - Dev blog 1" thumbnail={christmasBlogThumbnail}>
+          <BlogsGridItem id="christmasBlog" title="Christmas blog - Dev blog 1" thumbnail={christmasBlogThumbnail} children={undefined}>
             
           </BlogsGridItem>
         </Section>
