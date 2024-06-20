@@ -13,8 +13,16 @@ const Blog = () => {
   return (
     <Layout title="Christmas blog - Dev blog 1">
       <Container>
-        <BlogsTitle>Christmas blog</BlogsTitle>
-
+        <BlogsTitle>
+          <Heading
+            as="h2"
+            fontSize={24}
+            fontFamily="Work Sans, sans-serif"
+            fontWeight="bold"
+          >
+            Christmas blog - Dev blog #1 <Badge>Dec 2023</Badge>
+          </Heading>
+        </BlogsTitle>
         <Heading
           as="h2"
           fontSize={24}

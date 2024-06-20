@@ -24,7 +24,7 @@ const Blog = () => {
             id="christmasBlog"
             title="Christmas blog - Dev blog 1"
             thumbnail={christmasBlogThumbnail}
-          />
+          >Christmas blog</BlogsGridItem>
         </Section>
       </Container>
     </Layout>

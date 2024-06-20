@@ -42,7 +42,7 @@ export const ProjectGridItem =({ children, id, title, thumbnail }) => (
     </Box>
 )
 
-export const BlogsGridItem =({ id, title, thumbnail }) => (
+export const BlogsGridItem =({ children, id, title, thumbnail }) => (
     <Box w="100%" align="center">
         <NextLink href={`/blogs/${id}`}>
             <LinkBox cursor="pointer">
