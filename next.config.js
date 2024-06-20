@@ -1,3 +1,5 @@
 module.exports = {
-    reactStrictMode: true
+    reactStrictMode: true,
+    output: 'export',
+    distDir: 'out'
 }
