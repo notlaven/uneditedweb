@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react"
+import { Container, Heading } from "@chakra-ui/react"
 import Section from "../components/section"
 import { BlogsGridItem } from "../components/grid-i"
 import Layout from "../components/layouts/blog"
@@ -24,8 +24,7 @@ const Blog = () => {
             id="christmasBlog"
             title="Christmas blog - Dev blog 1"
             thumbnail={christmasBlogThumbnail}
-            children={undefined}
-          ></BlogsGridItem>
+          />
         </Section>
       </Container>
     </Layout>

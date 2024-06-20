@@ -17,11 +17,11 @@ const About = () => {
         </Heading>
         <Divider mb={4} mt={3} />
         <p>
-          Hey, I'm Charlie! <br />
-          I'm a 15 year old full stack web developer. I've been coding websites,
+          Hey, I&apos;m Charlie! <br />
+          I&apos;m a 15 year old full stack web developer. I&apos;ve been coding websites,
           apps and custom built software solutions since 5, expanding my
           knowledge of code and design over time. <br />
-          In March 2024 I've finished a MicroBachelor in Web Development (By IBM
+          In March 2024 I&apos;ve finished a MicroBachelor in Web Development (By IBM
           via EDx. For more info, check my LinkedIn page)
           <Divider mb={3} mt={4} />
           Links: <br />

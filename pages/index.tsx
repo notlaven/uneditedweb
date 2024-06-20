@@ -37,9 +37,9 @@ const Page = () => {
           </Heading>
 
           <p>
-            Hi! I'm Charlie, coding and website design are my way of creating a
+            Hi! I&apos;m Charlie, coding and website design are my way of creating a
             good place in the world. When I was 5 years old, I started learning
-            the basics of coding; in python. And ever since, I've started coding
+            the basics of coding; in python. And ever since, I&apos;ve started coding
             and creating websites and apps. Learning over 15 different
             programming languages, and writing over 10000 lines of code.
           </p>
@@ -68,12 +68,12 @@ const Page = () => {
           </Heading>
 
           <p>
-            Since December 2023 I've been working to create stunning new designs and code
+            Since December 2023 I&apos;ve been working to create stunning new designs and code
             for new apps and websites.
           </p>
 
           <p>
-            Since then I've created several projects.
+            Since then I&apos;ve created several projects.
           </p>
 
           <Box alignItems="center" my={3}>
