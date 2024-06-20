@@ -5,9 +5,9 @@ import {
   ListItem,
   Heading,
   Text
-} from "@chakra-ui/react";
-import { BlogsTitle, Meta } from "../../components/blog";
-import Layout from "../../components/layouts/blog";
+} from "@chakra-ui/react"
+import { BlogsTitle, Meta } from "../../components/blog"
+import Layout from "../../components/layouts/blog"
 
 const Blog = () => {
   return (
@@ -25,7 +25,8 @@ const Blog = () => {
         </Heading>
         <List>
           <ListItem fontFamily={"Work sans, sans-serif"}>
-            <Meta>Blogpost</Meta><span>Dev blog - christmas special</span>
+            <Meta>Blogpost</Meta>
+            <span>Dev blog - christmas special</span>
           </ListItem>
         </List>
 
@@ -34,7 +35,7 @@ const Blog = () => {
         </Text>
       </Container>
     </Layout>
-  );
-};
+  )
+}
 
-export default Blog;
+export default Blog
